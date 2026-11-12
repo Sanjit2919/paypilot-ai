@@ -1,1 +1,123 @@
+🚀 PayPilot AI
 
+Your Autonomous AI Finance Assistant
+
+PayPilot AI is an AI-powered financial operations platform designed for freelancers and small businesses. It combines PayPal’s payment infrastructure with Google Gemini AI and specialised financial agents to simplify business finance management.
+
+Our vision is to transform traditional financial management from passive record-keeping into intelligent, actionable decision-making.
+
+💡 Problem
+
+Freelancers and small businesses often struggle with fragmented financial operations:
+
+* Managing clients and projects.
+* Creating and tracking invoices.
+* Following up on outstanding payments.
+* Monitoring business expenses.
+* Predicting future cash flow.
+* Making informed financial decisions.
+
+PayPilot AI brings these operations together in one intelligent platform.
+
+✨ Key Features
+
+* Smart Invoicing: Create, manage, and track business invoices.
+* PayPal Integration: Process payments using PayPal Orders API.
+* AI Finance Assistant: Ask financial questions using natural language.
+* Multi-Agent Intelligence: Specialised agents for invoices, payments, expenses, cash flow, and business intelligence.
+* Expense Intelligence: Analyse spending patterns and financial activity.
+* Cash Flow Prediction: Estimate future income, expenses, and potential financial risks.
+* AI Action Centre: Review and approve AI-generated recommendations.
+
+🧠 AI Architecture
+
+PayPilot AI uses Google Gemini to power its intelligent financial assistant.
+
+Its multi-agent architecture consists of:
+
+1. Invoice Agent
+2. Payment Agent
+3. Expense Intelligence Agent
+4. Cash Flow Prediction Agent
+5. Business Intelligence Agent
+
+A central orchestrator coordinates these specialised agents to provide contextual financial insights.
+
+💳 PayPal Integration
+
+PayPilot AI integrates the PayPal Developer Platform through:
+
+* OAuth 2.0 authentication.
+* PayPal Orders API v2.
+* Order creation and approval.
+* Payment capture and verification.
+* Invoice payment reconciliation.
+
+The application uses the PayPal Sandbox for development and demonstration.
+
+🛠️ Technology Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Node.js
+* PostgreSQL
+* Drizzle ORM
+* Google Gemini AI
+* PayPal Developer Platform
+
+For additional technology details, see BUILT_WITH.md.
+
+⚙️ Getting Started
+
+Prerequisites
+
+* Node.js
+* npm
+* PostgreSQL
+* PayPal Developer Sandbox account
+* Google Gemini API key
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Sanjit2919/paypilot-ai.git
+
+Navigate to the project:
+
+cd paypilot-ai
+
+Install dependencies:
+
+npm install
+
+Configure environment variables using the provided .env.example file.
+
+Start the development server:
+
+npm run dev
+
+Open http://localhost:3000 in your browser.
+
+Refer to the project configuration and documentation for database setup and API credentials.
+
+🔐 Security
+
+* Never commit API keys or private credentials.
+* Keep environment variables in .env.local.
+* Use PayPal Sandbox credentials for testing.
+* Verify payment captures on the server before updating invoice payment status.
+
+🌍 Future Vision
+
+Our goal is to make intelligent financial management accessible to businesses of every size through AI-powered automation, predictive intelligence, and connected payment infrastructure.
+
+🏆 Built For
+
+PayPal AI Hackathon 2026
+
+📄 License
+
+This project is licensed under the MIT License. See LICENSE for details.
